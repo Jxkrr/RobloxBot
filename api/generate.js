@@ -20,8 +20,6 @@ export default async function handler(req, res) {
     context: 'Rollout_AgeGateB',
     referralData: '',
     displayName: username,
-    // You would include a solved CAPTCHA token here if you had one
-    // captchaToken: "PASTE_FROM_CAPSOLVER"
   };
 
   try {
